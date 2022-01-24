@@ -10,6 +10,6 @@ install:
 	mkdir -p ${DESTDIR}${bindir}
 	mkdir -p ${DESTDIR}${incdir}
 	mkdir -p ${DESTDIR}${libdir}
-	cp -ar ./${bindir}/* ${DESTDIR}${bindir}
-	cp -ar ./${incdir}/* ${DESTDIR}${incdir}
-	cp -ar ./${libdir}/* ${DESTDIR}${libdir}
+	cp -ar ./bin/* ${DESTDIR}${bindir}
+	cp -ar ./include/* ${DESTDIR}${incdir}
+	cp -ar ./lib/* ${DESTDIR}${libdir}
