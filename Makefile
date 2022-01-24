@@ -1,6 +1,6 @@
 DESTDIR ?= /
 
-bindir = bin
+bindir = usr/bin
 incdir = usr/share/ti/cgt-c7x/include
 libdir = usr/share/ti/cgt-c7x/lib
 
